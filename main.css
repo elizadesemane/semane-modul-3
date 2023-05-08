@@ -1,0 +1,32 @@
+.bank{
+    width: 1152px;
+    height: 50px;
+    background: #F5F5F6;
+    display: flex;
+    align-items: center;
+}
+.banka{
+    margin-left: 100px;
+    margin-right: 64px;
+}
+.xana{
+    list-style-type: none;
+    display: flex;
+}
+
+.xana li{
+    margin:0 20px;
+    font-size:12px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.duyme{
+    margin-left: 109px;
+    font-size:12px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background-color:#ffffff;
+    width:58px;
+    height:33px;
+    border-radius: 4px;
+}
