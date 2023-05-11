@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,71 +8,74 @@
     <title>bank valyuta</title>
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
     <div class="bank">
         <div class="banka">
             <img src="./imgss/Asset 1@3x 1.png" alt class="src">
         </div>
         <ul class="xana">
-         <li>Bank</li>
-         <li>Biznes</li>   
-         <li>Yatirim</li>
-         <li>Siğorta</li>
-         <li>Mobil</li>
-         <li>Səyahet</li>
-         <li>Əyləncə</li>
+            <li>Bank</li>
+            <li>Biznes</li>
+            <li>Yatirim</li>
+            <li>Siğorta</li>
+            <li>Mobil</li>
+            <li>Səyahet</li>
+            <li>Əyləncə</li>
         </ul>
         <div class="daxilol">
             <button class="duyme">Giriş</button>
         </div>
     </div>
-      <div class="header">
-        <div >
-    <h1 class="headername">
+    <div class="header">
+        <div>
+            <h1 class="headername">
                 Online valyuta çevirici
-    </h1>
+            </h1>
         </div>
         <div class="ikilikhisse">
-            <div class="birincihisse"> 
-            <div class="headerboxleft">
-            <p class="name">Bizde olan</p>
-        </div>
-         <div class="pulvahidi">
-            <div class="realy">RUB</div>
-            <div class="fake1">USD</div>
-            <div class="fake2" >EUR</div>
-            <div class="fake3">GBD</div>
-         </div>
-             <div class="boxs">
-                <div class="addvalue">
-                    <input type="text" value="5000">
+            <div class="birincihisse">
+                <div class="headerboxleft">
+                    <p class="name">Bizde olan</p>
                 </div>
-                <div class="hesablama">
-                    <p>1 RUB = 0.0135 USD</p>
-                </div>      
-            </div>
-        </div>
-       
-<div  class="ikincihisse"> 
-    <div class="headerboxleft">
-                <p class="name">Alınan məbləğ</p>
-            </div>
-             <div class="pulvahidi">
-                <div class="fake1">RUB</div>
-                <div class="realy">USD</div>
-                <div class="fake2" >EUR</div>
-                <div class="fake3">GBD</div>
-             </div>
-                 <div class="boxs">
+                <div class="pulvahidi left-panel"> 
+                    <button class="fake1 realy">RUB</button>
+                    <button class="fake1">USD</button>
+                    <button class="fake2">EUR</button>
+                    <button class="fake3">GBD</button>
+                </div>
+                <div class="boxs">
                     <div class="addvalue">
-                        <input type="text" value="66.6785">
+                        <input type="text" id="left-input">
                     </div>
                     <div class="hesablama">
-                        <p>1 USD = 73.8896 RUB</p>
-                    </div>      
+                        <p class="left-curr">1 RUB = 0.0135 USD</p>
+                    </div>
                 </div>
-      </div>
+            </div>
+
+            <div class="ikincihisse">
+                <div class="headerboxleft">
+                    <p class="name">Alınan məbləğ</p>
+                </div>
+                <div class="pulvahidi right-panel">
+                    <button class="fake1">RUB</button>
+                    <button class="fake2 realy">USD</button>
+                    <button class="fake2">EUR</button>
+                    <button class="fake3">GBD</button>
+                </div>
+                <div class="boxs">
+                    <div class="addvalue">
+                        <input type="text" id="right-input">
+                    </div>
+                    <div class="hesablama">
+                        <p class="right-curr">1 USD = 73.8896 RUB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+    <script src="main.js"></script>
 </body>
+
 </html>
